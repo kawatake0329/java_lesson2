@@ -9,4 +9,14 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>BmiCalc</display-name>
+    <servlet-name>BmiCalc</servlet-name>
+    <servlet-class>jp.learningdesign.javastudy.BmiCalc</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BmiCalc</servlet-name>
+    <url-pattern>/bmi</url-pattern>
+  </servlet-mapping>
 </web-app>
